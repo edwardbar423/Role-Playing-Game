@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49DEBA2B1D665B2300EF4926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DEBA2A1D665B2300EF4926 /* main.m */; };
+		49DEBA331D665B3F00EF4926 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DEBA321D665B3F00EF4926 /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		49DEBA271D665B2300EF4926 /* Role Playing Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Role Playing Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DEBA2A1D665B2300EF4926 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49DEBA311D665B3F00EF4926 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		49DEBA321D665B3F00EF4926 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				49DEBA2A1D665B2300EF4926 /* main.m */,
+				49DEBA311D665B3F00EF4926 /* Character.h */,
+				49DEBA321D665B3F00EF4926 /* Character.m */,
 			);
 			path = "Role Playing Game";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DEBA2B1D665B2300EF4926 /* main.m in Sources */,
+				49DEBA331D665B3F00EF4926 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
